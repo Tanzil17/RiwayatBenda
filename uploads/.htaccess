@@ -1,0 +1,4 @@
+# Foto saja: jangan pernah eksekusi skrip di folder ini
+<FilesMatch "\.(php|phtml|phar|php5)$">
+  Require all denied
+</FilesMatch>
